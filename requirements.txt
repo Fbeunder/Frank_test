@@ -1,0 +1,9 @@
+# Basisvereisten voor Frank_test project
+# Voor de huidige functionaliteit zijn er geen externe dependencies nodig,
+# omdat alleen standaard Python libraries worden gebruikt.
+
+# De huidige versie van het script gebruikt:
+# - time (standaard library)
+# - sys (standaard library)
+
+# Als het project wordt uitgebreid, kunnen hier nieuwe vereisten worden toegevoegd.
