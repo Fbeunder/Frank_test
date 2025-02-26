@@ -1,9 +1,22 @@
-# Basisvereisten voor Frank_test project
-# Voor de huidige functionaliteit zijn er geen externe dependencies nodig,
-# omdat alleen standaard Python libraries worden gebruikt.
+# Vereisten voor Frank_test project
 
-# De huidige versie van het script gebruikt:
-# - time (standaard library)
-# - sys (standaard library)
+# Python standaard libraries (meegeleverd met Python)
+# - time (voor animatie timing)
+# - sys (voor console-output manipulatie)
+# - math (voor 3D-berekeningen)
+# - tkinter (voor de GUI - standaard in Python maar moet soms apart geïnstalleerd worden)
+# - webbrowser (voor het openen van de 3D visualisatie)
+# - os (voor bestandsmanipulatie)
+# - json (voor data verwerking)
+# - threading (voor het draaien van de webserver)
+# - http.server (voor het serveren van de 3D visualisatie)
+# - socket (voor het vinden van een vrije poort)
 
-# Als het project wordt uitgebreid, kunnen hier nieuwe vereisten worden toegevoegd.
+# Externe libraries geleverd via CDN in de 3D visualisatie:
+# - Three.js (r128) - Voor 3D rendering in de browser
+# - Three.js OrbitControls - Voor camera besturing
+# - Three.js FontLoader - Voor het laden van fonts
+# - Three.js TextGeometry - Voor het creëren van 3D tekst
+
+# Opmerking: Voor de 3D visualisatie zijn geen lokale Python packages nodig,
+# aangezien we gebruik maken van JavaScript libraries die via CDN worden geladen.
