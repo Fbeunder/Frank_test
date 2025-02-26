@@ -8,6 +8,7 @@ Deze repository bevat:
 
 - `hello_world.py`: Een eenvoudig Python script met een console-gebaseerd 3D-draaieffect voor tekst
 - `3d_visualizer.py`: Een moderne GUI applicatie met geavanceerde 3D tekst visualisatie
+- `test.py`: Een handig testscript om alle functionaliteit eenvoudig te kunnen testen
 - `requirements.txt`: Een bestand met de vereiste packages en libraries
 - `web/`: Directory met HTML en JavaScript bestanden voor de 3D visualisatie
 
@@ -45,6 +46,16 @@ De nieuwe GUI-applicatie biedt een moderne gebruikerservaring:
 4. Een ingebouwde webserver voor het tonen van de 3D visualisatie
 5. Automatisch openen van de visualisatie in de standaard webbrowser
 
+### Test Script (`test.py`)
+
+Een gemakkelijk te gebruiken testprogramma dat:
+
+1. Een interactief menu biedt voor het testen van beide applicaties
+2. Helpt bij het starten van zowel de console- als de GUI-applicatie
+3. Tips en instructies geeft voor het beste gebruik
+4. De README.md inhoud kan tonen
+5. Cross-platform werkt (Windows, macOS, Linux)
+
 ## Aan de slag
 
 ### Installatie
@@ -60,6 +71,16 @@ De nieuwe GUI-applicatie biedt een moderne gebruikerservaring:
    ```
 
 3. Zorg ervoor dat Python 3.6 of hoger is geïnstalleerd.
+
+### Eenvoudig Testen
+
+De eenvoudigste manier om alles te testen is via het testscript:
+
+```
+python test.py
+```
+
+Volg de instructies in het interactieve menu om de verschillende onderdelen te testen.
 
 ### De console applicatie gebruiken
 
